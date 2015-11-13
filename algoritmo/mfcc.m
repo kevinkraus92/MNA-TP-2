@@ -1,4 +1,4 @@
-%[y,fs,bps] = wavread("daniel_fragmento_1.wav");
+%[speech,fs,bps] = wavread("daniel_fragmento_1.wav");
 function melcepstrum = mfcc(speech, bps)
 	
 	input_user = parser();
